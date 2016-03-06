@@ -1,28 +1,40 @@
-name: Renato Regli
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.00324
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Renato Regli
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7085063715931028
+  brandStrength: 0.9444444
+  lightness: 0.4531187263783067
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
-  brandStrength: 0.12266114540398121
-  lightness: 0.45311872637830675
-  saturation: 0.7085063715931028
   rhythmicContrast: 0.4754561521112919
-purpose: []
+typography_spectrum: 0.2795699
+layout_spectrum: 0.7168459
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
